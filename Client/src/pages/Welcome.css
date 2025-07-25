@@ -1,0 +1,124 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding:0;
+}
+
+.welcome-page {
+  min-height: 100vh; /* This ensures it takes full viewport height */
+  background-color: #f0f4f8; /* or your desired color */
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #a78bfa, #c084fc);
+}
+
+.welcome-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #8e76f6, #b69cf0);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav-buttons button {
+  margin-left: 15px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: white;
+  color: #4f46e5;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: #e0e0ff;
+}
+
+.main-section {
+  flex-grow: 1;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.main-section h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.main-section h1 span {
+  color: #fff;
+}
+
+.main-section p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.info-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.info-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 25px 30px;
+  width: 280px;
+  text-align: left;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.info-card p {
+  font-size: 14px;
+  color: #f1f1f1;
+}
+
+.get-started {
+  background-color: #bb97f3;
+  color: #4f46e5;
+  padding: 14px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.get-started:hover {
+  background-color: #e4e4ff;
+}

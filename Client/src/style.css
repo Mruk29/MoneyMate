@@ -1,0 +1,64 @@
+/* General page layout */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+/* Input fields and buttons */
+.input-box {
+  margin-bottom: 1rem;
+}
+
+input, button {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #b591f0;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dashboard layout */
+.card-row {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 1rem;
+  flex: 1;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.chart-box {
+  margin-top: 2rem;
+}
+
+.fake-chart {
+  background-color: #ddd;
+  height: 150px;
+  margin-top: 1rem;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+}
